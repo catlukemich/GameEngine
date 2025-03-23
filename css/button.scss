@@ -1,0 +1,24 @@
+@import 'global.scss';  
+
+
+.button {
+    background-color: #fff;
+    margin: $default-margin;
+    padding: $default-padding;
+    border: 1px solid $color-dark;
+    color: $color-dark;
+
+    font-size: $controls-font-size;
+
+    &:hover {
+        background-color: rgb(136, 201, 255);
+    }
+}
+
+
+
+li .button {
+    border: none;
+    margin: 0px;
+    width: 100%;
+}

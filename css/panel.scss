@@ -1,0 +1,17 @@
+@import 'global.scss';
+
+.panel {
+    background-color: #eee;
+
+    .content {
+        padding: $default-padding;
+    }
+
+    .header {
+        padding: $default-padding;
+        background-color: $color-dark;
+        color: #eee;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

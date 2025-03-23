@@ -1,0 +1,36 @@
+@import 'global.scss';  
+
+ul {
+
+    background-color: #fafafa;
+    margin: $default-margin;
+    border: 1px solid $color-dark;
+
+    li {
+        position: relative;
+        background-color: #fff;
+        margin: $default-margin;
+        padding: 0;
+        color: $color-dark;
+    
+        font-size: $controls-font-size;
+    
+
+        .handle {
+            
+            &::before {
+                position: absolute;
+                left: -10px;
+                content: "≡";
+            }
+        }
+
+
+        &.selected {
+            background-color: #ffd900;
+            color: $color-dark;
+        }
+    }
+
+    
+}

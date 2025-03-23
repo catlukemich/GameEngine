@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  background-color: #fafafa;
+  margin: 3px;
+  border: 1px solid #555;
+}
+ul li {
+  position: relative;
+  background-color: #fff;
+  margin: 3px;
+  padding: 0;
+  color: #555;
+  font-size: 14px;
+}
+ul li .handle::before {
+  position: absolute;
+  left: -10px;
+  content: "≡";
+}
+ul li.selected {
+  background-color: #ffd900;
+  color: #555;
+}
+
+/*# sourceMappingURL=lists.css.map */
